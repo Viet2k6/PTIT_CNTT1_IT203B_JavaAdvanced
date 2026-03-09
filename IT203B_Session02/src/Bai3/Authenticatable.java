@@ -12,7 +12,7 @@ public interface Authenticatable {
 
     // Phương thức tĩnh: mô phỏng mã hóa mật khẩu
     static String encrypt(String rawPassword) {
-        // Ví dụ đơn giản: đảo ngược chuỗi
         return new StringBuilder(rawPassword).reverse().toString();
     }
+
 }
